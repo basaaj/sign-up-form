@@ -47,3 +47,15 @@ form {
 .right-container > div:nth-child(odd) {
     padding-left: 50px;
 }
+
+button {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
