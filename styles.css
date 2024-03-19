@@ -22,19 +22,28 @@ body {
 }
 
 form {
-    background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 10px 50px;
 }
 
 .form-row {
     display: flex;
     flex-direction: row;
+    background-color: white;
+    padding: 10px 50px;
+    margin: 0;
 }
 
 .form-entry {
     display: flex;
     flex-direction: column;
     margin: 10px 30px 10px 0;
+}
+
+.submit-btn {
+    background-color: rgb(245, 245, 245);
+}
+
+.right-container > div:nth-child(odd) {
+    padding-left: 50px;
 }
