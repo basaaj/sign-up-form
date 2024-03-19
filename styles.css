@@ -74,5 +74,15 @@ input {
     width: 300px;
     height: 40px;
     border-radius: 5px;
-    border: 1px solid #b2b2b2;
+    border: 1px solid #E5E7EB;
 }
+
+input:user-invalid {
+    border: 1px solid rgb(255, 121, 121);
+    background-color: rgb(255, 156, 156);
+}
+
+input:user-valid {
+    border: 1px solid green;
+}
+
