@@ -75,6 +75,17 @@ input {
     height: 40px;
     border-radius: 5px;
     border: 1px solid #E5E7EB;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid lightblue;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 input:user-invalid {
