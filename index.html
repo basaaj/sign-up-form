@@ -27,30 +27,42 @@
             <form action="" method="post">
                 <h2>Let's do this!</h2>
                 <div class="form-row">
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first-name">
+                    <div class="form-entry">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+
+                    <div class="form-entry">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
                 </div>
+
                 <div class="form-row">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" name="last-name">
+                    <div class="form-entry">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="form-entry">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
                 </div>
+
                 <div class="form-row">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <div class="form-entry">
+                        <label for="password">Password</label>
+                        <input type="text" id="password" name="password">
+                    </div>
+
+                    <div class="form-entry">
+                        <label for="password-confirm">Confirm Password</label>
+                        <input type="text" id="password-confirm" name="password-confirm">
+                    </div>
                 </div>
-                <div class="form-row">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone">
-                </div>
-                <div class="form-row">
-                    <label for="password">Password</label>
-                    <input type="text" id="password" name="password">
-                </div>
-                <div class="form-row">
-                    <label for="password-confirm">Confirm Password</label>
-                    <input type="text" id="password-confirm" name="password-confirm">
-                </div>
-                <div class="form-row">
+
+                <div class="form-row submit-btn">
                     <button>Create Account</button>
                 </div>
             </form>
