@@ -11,8 +11,12 @@ body {
 
 .left-container {
     width: 40%;
+    height: 100%;
     background: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .right-container {
@@ -114,7 +118,7 @@ input:user-valid {
     color: red;
 }
 
-a {
+.right-container > a {
     font-weight: bolder;
     text-decoration: none;
     color:#596D48;
@@ -145,5 +149,15 @@ a {
     color: white;
     font-family: "NorseBold";
     font-size: 7em;
+}
+
+#credits {
+    align-self: center;
+    color: white;
+}
+
+#credits > a {
+    color: white;
+    font-weight: bolder;
 }
 
