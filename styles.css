@@ -97,3 +97,12 @@ input:user-valid {
     border: 1px solid green;
 }
 
+.hidden {
+    display: none;
+}
+
+#password-error {
+    margin-top: 3px;
+    color: red;
+}
+
