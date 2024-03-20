@@ -22,17 +22,22 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-form {
+.form {
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
+    background-color: white;
 }
 
 .form-row {
     display: flex;
     flex-direction: row;
-    background-color: white;
     padding: 10px 50px;
     margin: 0;
+}
+
+#last-row {
+    padding-bottom: 50px;
 }
 
 .form-entry {
@@ -42,6 +47,7 @@ form {
 }
 
 .submit-btn {
+    padding-left: 50px;
     background-color: rgb(245, 245, 245);
 }
 
@@ -56,10 +62,11 @@ button {
     border: none;
     width: 200px;
     height: 50px;
-    font-size: 1em;
+    font-size: 1.2em;
     border-radius: 5px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     margin-top: 20px;
+    font-weight: bolder;
 }
 
 label {
@@ -75,7 +82,7 @@ input {
     height: 40px;
     border-radius: 5px;
     border: 1px solid #E5E7EB;
-    box-sizing: border-box;
+    padding-left: 5px;
 }
 
 input:focus {
@@ -90,7 +97,7 @@ button:hover {
 
 input:user-invalid, .error {
     border: 1px solid rgb(255, 121, 121);
-    background-color: rgb(255, 156, 156);
+    background-color: rgb(255, 199, 199);
 }
 
 input:user-valid {
@@ -104,5 +111,11 @@ input:user-valid {
 #password-error {
     margin-top: 3px;
     color: red;
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color:#596D48;
 }
 
