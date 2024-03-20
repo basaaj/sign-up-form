@@ -41,7 +41,7 @@ body {
     margin: 0;
 }
 
-#last-row {
+#last-entry {
     padding-bottom: 50px;
 }
 
@@ -118,7 +118,7 @@ input:user-valid {
     color: red;
 }
 
-.right-container > a {
+.right-container a {
     font-weight: bolder;
     text-decoration: none;
     color:#596D48;
